@@ -40,5 +40,5 @@ The React To-Do List App is a simple yet effective task management tool built us
    npm start
    ```
 
-   The application will open in your default browser at `http://localhost:3000`.
+   The application will open in your default browser at `http://localhost:3000`
 
