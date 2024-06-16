@@ -121,3 +121,32 @@ h1 {
 .filters button:hover {
   background: #6a46cc;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .TodoWrapper {
+    margin-top: 6rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .todo-input {
+    width: 100%;
+  }
+
+  .Todo {
+    /* flex-direction: column; */
+    align-items: flex-start;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  .filters button {
+    margin: 0.5rem 0;
+    max-width: none;
+  }
+}
+
